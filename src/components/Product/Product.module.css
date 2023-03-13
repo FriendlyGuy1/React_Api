@@ -1,0 +1,42 @@
+.list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(116, 101, 101);
+    border-radius: 5%;
+    height: 600px;
+    width: 400px;
+    overflow:hidden
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+.description {
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+h3,h4{
+    text-align: center;
+}
